@@ -11,8 +11,8 @@ def wallis(n):
 def monte_carlo(n):
     inside_circle=0
     for i in range(0,n):
-       x=random.random()
-       y=random.random()
+       x=random()
+       y=random()
        if((x*x)+(y*y))<=1:
           inside_circle+=1
     pi=(4*circle)/n
